@@ -1,3 +1,11 @@
-   echo $_POST["Username"];
-   echo $_POST["Password"];
- 
+  
+
+
+<?php 
+   $x= $_POST["Username"];
+   $y = $_POST["Password"];
+   echo "Username :".$x;
+
+   echo "\nPassword :".$y;
+
+  ?>
