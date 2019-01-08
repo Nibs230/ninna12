@@ -1,43 +1,37 @@
-@viewport {
-	  width: device-width ;
-  zoom: 1.0 ;
-}
-
-
-
 body{
 	background: url('pics/abst.jpg') repeat 0 0;
 }
 img{
-	width: 25%;
+	width: 25vw;
     padding-bottom: 10px;
 }
 h1{ 
 	font-weight: 300;
 	color: #ffff33;
-	padding-left:  25%;
+	padding-left:  5vw;
 	overflow-wrap: break-word; 
 	width: auto;
-	padding-bottom: 25px;
+	padding-bottom: 5vh;
 }
 .container{
 	border-radius: 15px 15px 15px 15px;
-	font-size: 20px;
+	font-size: 2vh;
 	font-family: Brush Script MT, Brush Script Std, cursive;
 	background-image: url('pics/purple.jpg');
 	color: yellow;
-width: 25%;
+width: 45vw;
+ height: 45vh;
 	border: 5px solid black;
 	margin: auto;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    padding: 5px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 5vh 5vw 5vh 5vw;
 }
 .container input{
- width: 60%;
+ width: 30vh;
 }
 .container .g{
-    padding-left: 25%;
+    padding-left: 5vh;
 	padding-bottom: 5px;
 }
 input[type='submit']{
