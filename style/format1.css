@@ -2,6 +2,7 @@ body{
 	background: url('pics/abst.jpg') repeat 0 0;
 }
 img{
+
 	width: 25vw;
     padding-bottom: 10px;
 }
@@ -43,4 +44,15 @@ input[type='submit']{
 }
 .container label{
 	display: block;
+}
+@viewport
+	{
+zoom:1.0;
+		width:extend-to-zoom;
+		
+}
+@-ms-viewport
+	{
+width:extend-to-zoom;
+		zoom:1.0;
 }
